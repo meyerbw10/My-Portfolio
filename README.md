@@ -31,6 +31,8 @@ Link to Github Repo: https://github.com/meyerbw10/My-Portfolio
 
 ### Usage & Mock Up
 
+![](/Me.jpeg)
+
 ---
 
 ## User Story
