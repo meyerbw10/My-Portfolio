@@ -48,7 +48,7 @@ header h2 {
 
 
 a:link {
-    color:rgb(83, 83, 83);
+    color:rgb(64, 64, 64);
     text-decoration: none;
 }
 
@@ -61,7 +61,17 @@ a:hover {
     margin: 40px;
     border-width: 5px;
     border-style:solid;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(/Me.jpeg);
+    background-size: cover;
     
+}
+
+.bodyMain2 {
+    border:black;
+    margin: 40px;
+    border-width: 5px;
+    border-style:solid;
+ 
 }
 
 .footer {
