@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans','Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}
+
+/* -------------------- Nav --------------------*/
+
+nav li {
+    border:black;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 2px;
+    border-style:solid;
+}
+
+nav a {
+    display:flex;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+nav p {
+    margin: 20px;
+}
+
+.header{
+    display: flexbox;
+}
+
+header {
+    font-size:20px;
+    display:flex;
+    width: 100%;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+header p {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 20px;
+}
+/* -------------------- body --------------------*/
+
+body {
+    border-color:#897d99;
+    border-width: 5px;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.body1 {
+    border:black;
+    margin: 40px;
+    border-width: 5px;
+    border-style:solid;
+    
+}
+
+.footer {
+    padding:30px;
+    clear:both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top:200px;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+.images{
+    height: 350px;
+    width: 450px;
+}
+
+
+.name{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+      font-size: 30px;
+    }
+  }
+/* -------------------- Home Images --------------------*/
+
+.allimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allimages h2 {
+    font-weight: bold;
+}
+
+.allimages>div {
+    margin:20px;
+}
+
+
+.allimages>div>div {
+    position: relative;
+    bottom: 50px;
+    width: 170px;
+    border:1px solid black;
+    text-indent: 10px;
+    background-color: #f0965280;
+}
+
+.allimages>div>a>img {
+    border: 1px solid black;
+}
+
+.imagebox {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.imagebox:hover {
+    opacity: .6;
+    cursor: pointer;
+}

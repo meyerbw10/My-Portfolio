@@ -1,24 +1,29 @@
 import React from 'react';
 
 export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+    return (
+        <div>
+            <h1 class="name">Contact Page</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1g2NeUDHItFeqlP8z-wgvQsIxKQcQwsoV/view?usp=sharing">Resume</a>
+                        <p>Click to see my Professional Resume! </p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/meyerbw10">Github</a>
+                        <p>Click to view my GitHub Page that includes all of my work!</p>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bradley-meyer-347b5678/">Linkedin</a>
+                        <p>Click to view my LinkedIn page! LinkedIn is where I have some additional information about where I worked as well as additional Professional information about me! </p>
+                    </li>
+                    <li>
+                        <a href="mailto: brad.meyer13@gmail.com">Send Email</a>
+                        <p>Click to send me an Email!</p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    );
 }
-
-
