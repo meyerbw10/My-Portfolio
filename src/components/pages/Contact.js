@@ -23,6 +23,14 @@ export default function Contact() {
                         <p>Click to send me an Email!</p>
                     </li>
                 </ul>
+                <div class="footer">
+            <h2>
+              Created by Bradley Meyer
+            </h2>
+            <p>
+              &copy; 2022 Bradley Meyer
+            </p>
+          </div>
             </nav>
         </div>
     );

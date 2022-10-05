@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <h1 class="name">Bradley Meyer</h1>
       <div>
-        <div class="body1">
+        <div class="bodyMain">
           <p>
             Driven, detail-oriented, dynamic and creative Full-stack software developer with work
             experience over many years in different professions. Bringing in Unique and varying
