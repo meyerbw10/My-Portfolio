@@ -22,6 +22,10 @@ export default function Contact() {
                         <a href="mailto: brad.meyer13@gmail.com">Send Email</a>
                         <p>Click to send me an Email!</p>
                     </li>
+                    <li>
+                        <a href="https://twitter.com/Bradley_Meyer10">View Twitter</a>
+                        <p>Come Check me out on Twitter!</p>
+                    </li>
                 </ul>
                 <div class="footer">
             <h2>
