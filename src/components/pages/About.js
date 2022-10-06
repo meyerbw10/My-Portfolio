@@ -19,7 +19,7 @@ export default function About() {
           <p> My Skills include:
             HTML, CSS, JavaScript, GitHub, JQuery, Bootstrap, Node, Express, Heroku Cloud
             Platform, MySQL Relational Database, NoSQL MongoDB Database, Object
-            Relational Mapping, Template Engines, React, PWAs, GraphQL with Apollo Server,
+            Relational Mapping, Template Engines, React, PWAs, GraphQL with Apollo Server.
           </p>
           <div class="footer">
             <h2>

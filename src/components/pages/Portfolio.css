@@ -57,7 +57,7 @@ a:hover {
 }
 
 .bodyMain {
-    border:black;
+    border:rgb(0, 0, 0);
     margin: 40px;
     border-width: 5px;
     border-style:solid;
@@ -104,7 +104,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #ffdddd80;
+    background-color: #ffbe5680;
 }
 
 .allimages h2 {
@@ -122,7 +122,7 @@ a:hover {
     width: 200px;
     border:2px solid black;
     text-indent: 10px;
-    background-color: #f0965280;
+    background-color: black;
 }
 
 .allimages>div>a>img {
@@ -140,6 +140,3 @@ a:hover {
     cursor: pointer;
 }
 
-.imageB {
-    background-color: #f0965280;
-}
